@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Charades App</string>
+    <string name="start">Start</string>
+    <string name="charades">CHARADES</string>
+    <string name="choose_a_deck">Choose a deck!</string>
+    <string name="disney">Disney/Pixar</string>
+    <string name="activities">Activities</string>
+    <string name="daily_life">Daily Life</string>
+    <string name="uiuc">UIUC</string>
+    <string name="play_game_confirmation">Play</string>
+    <string name="cancel">Cancel</string>
+    <string name="timer">Time</string>
+    <string name="word">word</string>
+    <string name="play_again">Play again!</string>
+    <string name="new_deck">Choose new deck</string>
+
+</resources>
