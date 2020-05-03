@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -33,21 +32,25 @@
 
             <Button
                 android:id="@+id/disney"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorAccent"
                 android:text="@string/disney"
-                android:textSize="24sp" />
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <Button
-                android:id="@+id/activities"
+                android:id="@+id/animals"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
-                android:text="@string/activities"
-                android:textSize="24sp" />
+                android:text="@string/animals"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
         </TableRow>
 
@@ -57,27 +60,28 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/daily_life"
+                android:id="@+id/sports"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorPrimary"
-                android:text="@string/daily_life"
-                android:textSize="24sp" />
+                android:text="@string/sports"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <Button
                 android:id="@+id/uiuc"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/holo_orange_light"
                 android:text="@string/uiuc"
-                android:textSize="24sp" />
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

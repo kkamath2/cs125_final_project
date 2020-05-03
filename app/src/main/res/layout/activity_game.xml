@@ -7,6 +7,45 @@
     android:background="@drawable/game_background"
     tools:context=".GameActivity">
 
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/pass"
+            android:visibility="visible"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/correct"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/correct"
+            android:visibility="visible"
+            app:srcCompat="@android:color/transparent" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word"
+        app:layout_constraintVertical_bias="0.651" />
+
     <TextView
         android:id="@+id/timer"
         android:layout_width="wrap_content"
@@ -21,13 +60,16 @@
 
     <TextView
         android:id="@+id/word"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="371dp"
+        android:layout_height="160dp"
+        android:gravity="center_horizontal|center_vertical"
         android:text="@string/word"
-        android:textSize="30sp"
+        android:textSize="46sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
